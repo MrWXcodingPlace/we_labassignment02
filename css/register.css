@@ -1,0 +1,52 @@
+.sign-upform {
+  padding: 20px;
+}
+
+.content-page-signup {
+  width: 100vw;
+  height: 200vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  /* background: url(assets/images/background.jpg); */
+  background-size: cover;
+}
+.register-content {
+  position: relative;
+  width: 600px;
+  height: 850px;
+  background-color: rgb(12, 59, 90);
+  border-radius: 30px;
+  padding: 0 100px;
+}
+.register-form {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+p,
+h1 {
+  color: #fff;
+}
+.avatar {
+  /* Rounded border */
+  border-radius: 30%;
+  height: 150px;
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.avatar-image {
+  /* Rounded border */
+  border-radius: 50%;
+  width: 40%;
+
+  /* Take full size */
+  height: 100%;
+  width: 100%;
+}
