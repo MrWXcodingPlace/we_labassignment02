@@ -25,7 +25,7 @@ if(isset($_POST["submit"])) {
 
 function uploadImage($filename)
 {
-    $target_dir = "../css/assets/images/user_profile/";
+    $target_dir = "../css/res/images/user_profile/";
     $target_file = $target_dir . $filename . ".png";
     move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file);
 }
@@ -63,7 +63,7 @@ function uploadImage($filename)
                 <form action="register.php" method="post" style="width: 130%; margin: auto" enctype="multipart/form-data">
                     <h1 style="text-align: center;">Sign Up Form</h1>
                         <div class="avatar">
-                            <img class="avatar-image" src="../assets/images/user.png" style="height:100%"><br><br>
+                            <img class="avatar-image" src="../res/images/user.png" style="height:100%"><br><br>
                             <input type="file" name="fileToUpload" onchange="previewFile()">
                         </div>
                         <br><br>

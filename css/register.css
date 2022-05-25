@@ -8,8 +8,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: aqua;
-  /* background: url(assets/images/background.jpg); */
+  background: url(../res/images/background.jpg);
   background-size: cover;
 }
 .register-content {
