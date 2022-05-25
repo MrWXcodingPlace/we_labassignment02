@@ -25,7 +25,7 @@ if(isset($_POST["submit"])) {
 
 function uploadImage($filename)
 {
-    $target_dir = "../css/res/images/user_profile/";
+    $target_dir = "../res/images/user_profile/";
     $target_file = $target_dir . $filename . ".png";
     move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file);
 }

@@ -7,7 +7,7 @@ if(isset($_POST["submit"])) {
     $stmt = $conn->prepare($sqllogin);
     $stmt ->execute();
     $number_of_rows = $stmt->fetchColumn();
-    echo "exist ?";
+
     if($number_of_rows > 0) {
         echo "<script>alert('Login Success');</script>";
         echo "<script> window.location.replace('main.php')</script>";
