@@ -57,10 +57,10 @@ function uploadImage($filename)
         </nav>
     </div>
 
-    <div class="content-page-signup">
+    <div class="content">
         <div class="register-content">
             <div class="register-form">
-                <form action="register.php" method="post" style="width: 130%; margin: auto" enctype="multipart/form-data">
+                <form action="register.php" method="post" enctype="multipart/form-data">
                     <h1 style="text-align: center;">Sign Up Form</h1>
                         <div class="avatar">
                             <img class="avatar-image" src="../res/images/user.png" style="height:100%"><br><br>
@@ -109,5 +109,12 @@ function uploadImage($filename)
             </div>
         </div>
     </div>
+    <footer>
+        <div class="w3-bar w3-white w3-padding-large">
+            <p style="color:black; text-align: center;">
+                Copyright &copy; <b>Goh Wen Xuan 277153</b>
+            </p>
+        </div>
+    </footer>
 </body>
 </html>

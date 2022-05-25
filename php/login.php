@@ -74,5 +74,12 @@ if(isset($_POST["submit"])) {
             </div>
         </div>
     </div>
+    <footer>
+        <div class="w3-bar w3-white w3-padding-large">
+            <p style="color:black; text-align: center;">
+                Copyright &copy; <b>Goh Wen Xuan 277153</b>
+            </p>
+        </div>
+    </footer>
 </body>
 </html>

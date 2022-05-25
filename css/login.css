@@ -11,7 +11,7 @@
   position: relative;
   width: 800px;
   height: 400px;
-  background-color: rgb(12, 59, 90);
+  background-color: #432818;
   border-radius: 30px;
   padding: 30px;
 }
@@ -43,7 +43,42 @@ p {
 }
 
 @media screen and (max-width: 900px) {
+  .login-content {
+    margin: 0 30px;
+  }
+
+  .logo-column {
+    border-radius: 20px;
+  }
+
+  .login-form {
+    background-color: rgba(52, 0, 73, 0.5);
+  }
 }
 
 @media screen and (max-width: 600px) {
+  .content {
+    background: url(../res/images/background.jpg) no-repeat center;
+  }
+
+  .login-content {
+    background-color: transparent;
+  }
+
+  .logo-column {
+    display: none;
+  }
+
+  .login-form {
+    position: initial;
+    margin: -40px auto;
+    background-color: transparent;
+  }
+  .login-form > h1 {
+    margin-top: 30px;
+    color: black;
+  }
+  p {
+    color: black;
+  }
 }

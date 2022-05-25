@@ -2,7 +2,7 @@
   padding: 20px;
 }
 
-.content-page-signup {
+.content {
   width: 100vw;
   height: 200vh;
   display: flex;
@@ -14,15 +14,15 @@
 .register-content {
   position: relative;
   width: 600px;
-  height: 850px;
-  background-color: rgb(12, 59, 90);
+  height: 900px;
+  background-color: #432818;
   border-radius: 30px;
   padding: 0 100px;
 }
 .register-form {
   width: 300px;
   height: 100%;
-  display: flex;
+  display: inline;
   flex-direction: column;
   align-items: center;
 }
@@ -31,7 +31,6 @@ h1 {
   color: #fff;
 }
 .avatar {
-  /* Rounded border */
   border-radius: 30%;
   height: 150px;
   width: 150px;
@@ -41,11 +40,21 @@ h1 {
 }
 
 .avatar-image {
-  /* Rounded border */
   border-radius: 50%;
   width: 40%;
-
-  /* Take full size */
   height: 100%;
   width: 100%;
+}
+@media screen and (max-width: 600px) {
+  .content {
+    background: url(../res/images/background.jpg) center;
+  }
+  .register-content {
+    background-color: transparent;
+  }
+  .register-form {
+    position: initial;
+    margin: -40px auto;
+    background-color: transparent;
+  }
 }
